@@ -30,7 +30,13 @@
 }
 
 .navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
     padding: 20px 40px;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar ul{
