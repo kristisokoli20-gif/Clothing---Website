@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account - Make-up</title>
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Account Styles -->
+  <link rel="stylesheet" href="account.css">
+
+  <!-- Icons & Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo"><img src="logo.svg" alt="Logo"></a>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#shop">Shop</a></li>
+      <li><a href="index.html#contacts">Contact</a></li>
+      <li><a href="account.html" class="active">Account</a></li>
+    </ul>
+    <div class="icons">
+      <a href="index.html#search"><i class="ri-search-line"></i></a>
+      <a href="index.html#user"><i class="ri-user-line"></i></a>
+      <a href="index.html#basket"><i class="ri-shopping-cart-line"></i></a>
+    </div>
+  </header>
+
+  <!-- Account Section -->
+  <div class="account-body">
+    <div class="account-container">
+      <div class="account-box">
+
+        <!-- Info Panel -->
+        <div class="account-info">
+          <h2>Welcome Back!</h2>
+          <p>Log in to access your exclusive makeup collection and manage your account.</p>
+        </div>
+
+        <!-- Form Panel -->
+        <div class="account-form">
+          <h1>Sign In</h1>
+
+          <div class="input-box">
+            <i class="ri-mail-line"></i>
+            <input type="email" placeholder="Email" required>
+          </div>
+
+          <div class="input-box">
+            <i class="ri-lock-line"></i>
+            <input type="password" placeholder="Password" required>
+          </div>
+
+          <button class="btn">Login</button>
+
+          <p class="switch-text">
+            Don't have an account? <a href="#">Sign Up</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
