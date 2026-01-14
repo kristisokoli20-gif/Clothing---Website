@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Make-up</title>
-  
+
+  <!-- Main Styles -->
   <link rel="stylesheet" href="style.css">
+  <!-- Account-specific Styles -->
+  <link rel="stylesheet" href="account.css">
 
+  <!-- Icons & Fonts -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <a href="#" class="logo"><img src="logo.svg" alt="Logo" /></a>
 
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo"><img src="logo.svg" alt="Logo"></a>
     <ul class="navbar">
       <li><a href="#home" class="active">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -24,25 +28,24 @@
       <li><a href="#contacts">Contact</a></li>
       <li><a href="#account">Account</a></li>
     </ul>
-
     <div class="icons">
       <a href="#search"><i class="ri-search-line" aria-label="Search"></i></a>
       <a href="#user"><i class="ri-user-line" aria-label="User"></i></a>
       <a href="#basket"><i class="ri-shopping-cart-line" aria-label="Cart"></i></a>
-      <div class="bx bx-menu" id="menu-icon" aria-label="Menu"></div>
+      <a href="account.html"><i class="bx bx-user"></i></a>
     </div>
   </header>
-  
-<section class="home">
-  <div class="home-text">
-    <h4>In this season, find the best</h4>
-<h1>Exclusive Collection for Everyone</h1>
-<a href="#shop" class="btn">Explore Now</a>
 
-  </div>
- </div>
-</section>
+  <!-- Home Section -->
+  <section class="home">
+    <div class="home-text">
+      <h4>In this season, find the best</h4>
+      <h1>Exclusive Collection for Everyone</h1>
+      <a href="#shop" class="btn">Explore Now</a>
+    </div>
+  </section>
 
+  <!-- Features Section -->
   <section class="feature">
     <div class="middle-text">
       <h2>Discover more...<span>Good things.</span></h2>
@@ -52,35 +55,35 @@
         <div class="main-row">
           <div class="row-text">
             <h6>Explore new arrivals</h6>
-            <h3>Give the gift<br> of choice</h3>
+            <h3>Give the gift<br>of choice</h3>
             <a href="#" class="row-btn">Show me all</a>
           </div>
-          <div class="row-img">
-            <img src="images.jpg">
-          </div>
+          <div class="row-img"><img src="images.jpg" alt="Product Image"></div>
         </div>
       </div>
-    <div class="row row2">
-<div class="main-row">
-<div class="row-text">
-<h6>Explore new arrivals</h6>
-<h3>Give the gift <br> of choice</h3>
-<a href="#" class="row-btn">Show me all</a>
-</div>
-<div class="row-img">
-<img src="images2.avif">
-</div>
-</div>
-</div>
+      <div class="row row2">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Explore new arrivals</h6>
+            <h3>Give the gift<br>of choice</h3>
+            <a href="#" class="row-btn">Show me all</a>
+          </div>
+          <div class="row-img"><img src="images2.avif" alt="Product Image"></div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Products Section -->
   <section class="product">
     <div class="middle-text">
       <h2>New Arrivals.<span>Best selling of the month</span></h2>
     </div>
     <div class="product-content">
+      <!-- Repeatable Product Box -->
+      <div class="box">
+        <div class="box-img"><img src="rare1.webp" alt="Rare Beauty"></div>
+          <div class="product-content">
       <div class="box">
         <div class="box-img">
           <img src="rare1.webp">
@@ -243,56 +246,60 @@
       </div> 
     </div>
   </section>
+
+    </div>
+  </section>
+
+  <!-- CTA Section -->
   <section class="cta-content">
-<div class="cta">
-<div class="cta-text">
-<a href="#" class="logo"><img src="img/logo. svg"></a>
-<h3>Special offer for New Year</h3>
-<p>Make-up is a form of self-expression and autonomy at a particular period
-and place</p>
-<a href="#" class="btn">Discover More</a>
-</div>
-</div>
-<section class="contact" id="contacts">
-  <div class="main-contact">
-
-    <div class="contact-content">
-      <h5>Getting started</h5>
-      <ul>
-        <li><a href="#">Release Notes</a></li>
-        <li><a href="#">Upgrade Guide</a></li>
-        <li><a href="#">Browser Support</a></li>
-        <li><a href="#">Dark Mode</a></li>
-      </ul>
+    <div class="cta">
+      <div class="cta-text">
+        <a href="#" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+        <h3>Special offer for New Year</h3>
+        <p>Make-up is a form of self-expression and autonomy at a particular period and place</p>
+        <a href="#" class="btn">Discover More</a>
+      </div>
     </div>
+  </section>
 
-    <div class="contact-content">
-      <h5>Resources</h5>
-      <ul>
-        <li><a href="#">Best practices</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Developers</a></li>
-        <li><a href="#">Learn design</a></li>
-      </ul>
+  <!-- Contact Section -->
+  <section class="contact" id="contacts">
+    <div class="main-contact">
+      <div class="contact-content">
+        <h5>Getting started</h5>
+        <ul>
+          <li><a href="#">Release Notes</a></li>
+          <li><a href="#">Upgrade Guide</a></li>
+          <li><a href="#">Browser Support</a></li>
+          <li><a href="#">Dark Mode</a></li>
+        </ul>
+      </div>
+      <div class="contact-content">
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="#">Best practices</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Learn design</a></li>
+        </ul>
+      </div>
+      <div class="contact-content">
+        <h5>Community</h5>
+        <ul>
+          <li><a href="#">Discussion Forums</a></li>
+          <li><a href="#">Code of Conduct</a></li>
+          <li><a href="#">Contributing</a></li>
+          <li><a href="#">API Reference</a></li>
+        </ul>
+      </div>
     </div>
+  </section>
 
-    <div class="contact-content">
-      <h5>Community</h5>
-      <ul>
-        <li><a href="#">Discussion Forums</a></li>
-        <li><a href="#">Code of Conduct</a></li>
-        <li><a href="#">Contributing</a></li>
-        <li><a href="#">API Reference</a></li>
-      </ul>
-    </div>
-
+  <!-- Footer -->
+  <div class="end-text">
+    <p>2026 All Rights Reserved by Group EEVK</p>
   </div>
-</section>
 
-</section>
-<div class="end-text">
-  <p>2026 All Rights Reserved by Group EEVK</p>
-</div>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
