@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <!-- Link to stylish basket CSS -->
+  <link rel="stylesheet" href="basket.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <a href="main.html">&larr; Back to Store</a>
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-badge">
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- Cart Items -->
+    <div class="cart-container" id="cart-container">
+      <div id="cart-items"></div>
+      <div class="total">Total: <span id="total-price">$0.00</span></div>
+    </div>
+
+    <!-- Empty Cart Message -->
+    <div class="empty-cart" id="empty-cart" style="display:none;">
+      <p>Your cart is empty.</p>
+      <a href="main.html" class="back-home">Go to Store</a>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
