@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -18,31 +18,35 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <a href="#" class="logo"><img src="logo.svg" alt="Logo"></a>
-    <ul class="navbar">
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#shop">Shop</a></li>
-      <li><a href="#contacts">Contact</a></li>
-      <li><a href="#account">Account</a></li>
-    </ul>
-    <div class="icons">
-      <a href="search.html"><i class="bx bx-search" aria-label="Search"></i></a>
-      <a href="basket.html"><i class="bx bx-cart" aria-label="Cart"></i></a>
-      <a href="account.html"><i class="bx bx-user"></i></a>
-    </div>
-  </header>
+<!-- HEADER -->
+<header> 
+  <a href="#" class="logo">MAKEUP</a> 
+  <ul class="navbar"> 
+    <li>
+      <a href="#" class="active">Home</a></li> 
+      <li><a href="#">About</a></li> 
+      <li><a href="#">Shop</a></li> 
+      <li><a href="#">Contact</a></li> 
+</ul>
 
-  <!-- Home Section -->
-  <section class="home">
-    <div class="home-text">
-      <h4>In this season, find the best</h4>
-      <h1>Exclusive Collection for Everyone</h1>
-      <a href="#shop" class="btn">Explore Now</a>
-    </div>
-  </section>
+  <div class="icons">
+     <a href="search.html"><i class="bx bx-search"></i></a>
+     <a href="basket.html"><i class="bx bx-cart"></i></a>
+     <a href="account.html"><i class="bx bx-user"></i></a>
+  </div>
+
+  <!-- MOBILE MENU ICON -->
+  <div id="menu-icon" class="bx bx-menu"></div>
+</header>
+
+<!-- HOME -->
+<section class="home">
+  <div class="home-text">
+    <h1>Exclusive Collection</h1>
+    <p>Find the best makeup for you</p>
+    <a href="#" class="btn">Explore Now</a>
+  </div>
+</section>
 
   <!-- Features Section -->
   <section class="feature">
@@ -81,6 +85,7 @@
   </div>
 
   <div class="product-content">
+
     <!-- Product 1 -->
     <div class="box">
       <div class="box-img">
@@ -90,13 +95,12 @@
       <p>Warm Wishes Effortless Cream Bronzer Stick</p>
       <p class="price">$28.00</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="Rare Beauty Bronzer" data-price="28" data-image="rare1.webp">
+        Add to Cart
+      </button>
     </div>
 
     <!-- Product 2 -->
@@ -108,13 +112,12 @@
       <p>Telescopic Original Washable Intense Lengthening Mascara, Black</p>
       <p class="price">$14.99</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="L'Oreal Paris Mascara" data-price="14.99" data-image="image1.jpg">
+        Add to Cart
+      </button>
     </div>
 
     <!-- Product 3 -->
@@ -126,13 +129,12 @@
       <p>Radiant Creamy Concealer with Hydrating Medium Coverage</p>
       <p class="price">$36.00</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="NARS Radiant Concealer" data-price="36" data-image="image4.jpg">
+        Add to Cart
+      </button>
     </div>
 
     <!-- Product 4 -->
@@ -144,13 +146,12 @@
       <p>Easy Bake Blurring Loose Baking & Setting Powder</p>
       <p class="price">$39.00</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="HUDA BEAUTY Loose Powder" data-price="39" data-image="image5.jpg">
+        Add to Cart
+      </button>
     </div>
 
     <!-- Product 5 -->
@@ -162,13 +163,12 @@
       <p>Airbrush Flawless Hydrating & Waterproof Setting Spray</p>
       <p class="price">$38.00</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="Charlotte Tilbury Spray" data-price="38" data-image="image6.jpg">
+        Add to Cart
+      </button>
     </div>
 
     <!-- Product 6 -->
@@ -180,13 +180,12 @@
       <p>Cookie and Tickle Shimmer Finish Powder Highlighters</p>
       <p class="price">$37.05</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="Benefit Cosmetics Highlighter" data-price="37.05" data-image="image7.jpg">
+        Add to Cart
+      </button>
     </div>
 
     <!-- Product 7 -->
@@ -198,14 +197,14 @@
       <p>Hydrates and smoothes skin texture and protects with SPF 18.</p>
       <p class="price">$11.99</p>
       <div class="rating">
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
-        <i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+        <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
       </div>
-      <a href="#shop" class="btn">Add to Cart</a>
+      <button class="btn add-to-cart" data-name="Fit Me Dewy Foundation" data-price="11.99" data-image="image8.jpg">
+        Add to Cart
+      </button>
     </div>
+
   </div>
 </section>
 
@@ -260,6 +259,7 @@
   </div>
 
   <script src="app.js"></script>
+  <script src="search.js"></script>
 
   <script src="script.js"></script>
 </body>
